@@ -1,0 +1,11 @@
+ipython
+TextBlob
+boto3
+typing
+jupyter
+npm
+live-server
+prettier
+html-snippet
+python-requests
+pyparsing
