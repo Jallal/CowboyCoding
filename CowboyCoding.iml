@@ -3,10 +3,10 @@
   <component name="AutoImportedSourceRoots">
     <option name="directories">
       <list>
-        <option value="D:\Dev\CowboyCoding_test/src/main/java" />
-        <option value="D:\Dev\CowboyCoding_test/src/main/kotlin" />
-        <option value="D:\Dev\CowboyCoding_test/src/test/java" />
-        <option value="D:\Dev\CowboyCoding_test/src/test/kotlin" />
+        <option value="D:\Dev\CowboyCoding/src/main/java" />
+        <option value="D:\Dev\CowboyCoding/src/main/kotlin" />
+        <option value="D:\Dev\CowboyCoding/src/test/java" />
+        <option value="D:\Dev\CowboyCoding/src/test/kotlin" />
       </list>
     </option>
   </component>
