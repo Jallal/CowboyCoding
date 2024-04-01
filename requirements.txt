@@ -7,6 +7,5 @@ npm
 live-server
 prettier
 html-snippet
-python-requests
 pyparsing
 node
