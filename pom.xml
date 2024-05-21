@@ -343,6 +343,12 @@
       <artifactId>guava</artifactId>
       <version>${guava-version}</version>
     </dependency>
+  
+    <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-test</artifactId>
+      <version>4.2.0</version>
+    </dependency>
   </dependencies>
 
   <dependencyManagement>

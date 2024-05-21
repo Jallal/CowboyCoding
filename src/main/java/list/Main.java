@@ -1,4 +1,11 @@
+package list;
+import java.util.Map;
+
+import stringManipulation.Strings;
+
 public class Main {
+
+    
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -34,5 +41,14 @@ public class Main {
         //Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
         //Output: 7 -> 0 -> 8
         //Explanation: 342 + 465 = 807.
+
+        String str ="I'm done with this stuoid job and uOTA negative information and sad words";
+        Map<Character, Integer> countDuplicateCharactersV1 = Strings.countDuplicateCharactersV1(str);
+
+        for(Map.Entry<Character, Integer>  element : countDuplicateCharactersV1.entrySet()){
+
+            System.out.println(" Key : "+element.getKey()+" and Value : "+element.getValue());
+        }
+
     }
 }
