@@ -21,6 +21,8 @@ public class binarySearch {
             } else if(lowerBound> upperBound){
                 //can't find it
                 return arr.length;
+
+                
             }
 
             if(arr[curIn] < searchKey){
