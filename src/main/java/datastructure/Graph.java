@@ -46,7 +46,7 @@ while(!queue.isEmpty()){
 
                 int n = i.next();
                 if(!visited[n]){
-                    vistited[n] = true;
+                    visited[n] = true;
                     queue.add(n);
                 }   
             }
