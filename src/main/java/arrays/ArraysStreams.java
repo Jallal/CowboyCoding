@@ -27,11 +27,11 @@ public class ArraysStreams{
 
     public static void reversingAnArr(int[] arr) {
 
-        for(int leftHead =0, rightHead = arr.length-1; lefthead < rightHead; leftHead++, rightHead--){
+        for(int leftHead =0, rightHead = arr.length-1; leftHead < rightHead; leftHead++, rightHead--){
 
-        int elemenet = arr[leftHead];
+        int temp = arr[leftHead];
         arr[leftHead] = arr[rightHead];
-        arr[rightHead] = elemenet;
+        arr[rightHead] = temp;
 
         }
 

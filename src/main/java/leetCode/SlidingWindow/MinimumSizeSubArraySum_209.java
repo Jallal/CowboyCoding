@@ -2,8 +2,7 @@
 /**
  * 
  Given an array of positive integers nums and a positive integer target, return the minimal length of a 
-subarray
- whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
+subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
 
  
 
@@ -33,9 +32,9 @@ public class MinimumSizeSubArraySum_209 {
         for(int i=0; i< nums.length; i++){
             val_sum+=nums[i];
             while(val_sum>=target){
-                System.out.println(" i+1-left. "+(i+1-left));
-                System.out.println("left. "+left);
-                System.out.println("i+1 "+(i+1));
+                //System.out.println(" i+1-left. "+(i+1-left));
+                //System.out.println("left. "+left);
+                //System.out.println("i+1 "+(i+1));
                 result = Math.min(result, i+1-left);
                 val_sum-=nums[left];
                 left++;
