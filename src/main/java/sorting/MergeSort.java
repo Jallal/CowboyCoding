@@ -25,7 +25,7 @@ public class MergeSort {
             if(arrayA[aDex] < arrayB[bDex]){
                 arrayC[cDex++] = arrayA[aDex++];
             }else{
-                arrayC[cDex++] = arrayB[bDex++];
+                arrayC[cDex++] = arrayB[bDex++]; 
             }
         }
 
