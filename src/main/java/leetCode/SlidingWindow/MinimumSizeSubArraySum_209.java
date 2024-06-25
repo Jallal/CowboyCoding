@@ -32,9 +32,6 @@ public class MinimumSizeSubArraySum_209 {
         for(int i=0; i< nums.length; i++){
             val_sum+=nums[i];
             while(val_sum>=target){
-                //System.out.println(" i+1-left. "+(i+1-left));
-                //System.out.println("left. "+left);
-                //System.out.println("i+1 "+(i+1));
                 result = Math.min(result, i+1-left);
                 val_sum-=nums[left];
                 left++;
