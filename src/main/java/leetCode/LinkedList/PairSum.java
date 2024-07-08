@@ -58,6 +58,8 @@ The space complexity is O(1) because the reversal of the second half is done in-
  */
 package leetCode.LinkedList;
 
+import leetCode.dividAndConquer.ListNode;
+
 public class PairSum {
 
     public int pairSum(ListNode head) {
@@ -69,7 +71,7 @@ public class PairSum {
 
         //find the middle of the linkedlist
         ListNode slow = head;
-        ListNode fast = head;
+        ListNode fast = head.next;
         while(fast!=null && fast.next!=null&&fast.next.next!=null){
             slow = slow.next;
             fast = fast.next.next;
